@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Django
+*.log
+local_settings.py
+
+# SQLite DB (local/dev)
+db.sqlite3
+*.sqlite3
+
+# Uploads / media
+media/
+
+# Static collection output (if you ever run collectstatic)
+staticfiles/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
